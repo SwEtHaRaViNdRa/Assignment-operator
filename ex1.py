@@ -1,0 +1,11 @@
+a,b=float(input("Enter First vale:")),float(input("Enter the second value:"))
+sum,sub,mul,div,fdiv,mod,exp=a+b,a-b,a*b,a/b,a//b,a%b,a**b
+print("*"*50)
+print("\t\t\t{}+{}={}".format(a,b,sum))
+print("\t\t\t{}-{}={}".format(a,b,sub))
+print("\t\t\t{}/{}={}".format(a,b,div))
+print("\t\t\t{}//{}={}".format(a,b,fdiv))
+print("\t\t\t{}%{}={}".format(a,b,mod))
+print("\t\t\t{}**{}={}".format(a,b,exp))
+print("\t\t\t{}*{}={}".format(a,b,mul))
+print("*"*50)
